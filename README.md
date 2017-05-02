@@ -50,4 +50,5 @@ jq扩展包的写法
 
  **页面预览**
  ------
- 
+ ![enter image description here](https://github.com/zhoupeihuang/loadPublic/blob/master/js/page.png?raw=true)
+
