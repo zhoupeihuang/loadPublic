@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/loadPublic.js"></script>
+	</head>
+
+	<body>
+		<h3 onclick="aa(this)" style="border: 1px orangered dashed; width: 800px; height: 90px;">let you go ....</h3>
+		<section id="head"></section>
+		<section id="main"></section>
+		<script>
+			$(function() {
+				$("#head").loadPublic({
+					path: 'template/head.html'
+				})
+				$("#main").loadPublic({
+					path: 'template/main.html'
+				})
+				
+			})
+		</script>
+	</body>
+
+</html>
